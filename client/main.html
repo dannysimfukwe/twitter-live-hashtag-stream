@@ -1,0 +1,47 @@
+<head>
+  <title>Test Twitter Live Streamer</title>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+
+<body>
+  <center><h1>#developer hashtag tracking</h1></center>
+
+ {{> tweets}}
+ </body>
+<template name="tweets">
+
+  <p></p>
+
+
+
+<div class="wrapper">
+     {{#each streams}}       
+  <div class="card radius shadowDepth1">
+      <div class="card__content card__padding">
+      
+          <div class="card__meta">
+              <time> {{>timeago date}}</time>
+          </div>
+
+          <article class="card__article">
+              <p>{{tweet}}</p>
+          </article>
+      </div>
+
+      <div class="card__action">
+          <div class="card__author">
+              <img src="{{img}}" alt="user">
+              <div class="card__author-content">
+                  <a href="https://twitter.com/{{name}}" target="_blank">@{{name}}</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+{{/each}}
+
+</div>
+
+
+</template>
+
