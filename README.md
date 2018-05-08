@@ -8,4 +8,4 @@
 
 > run npm install in the cloned project folder to install dependances
 
->Author: Danny Simfukwe
+> Author: Danny Simfukwe
