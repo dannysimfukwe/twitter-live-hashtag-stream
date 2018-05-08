@@ -2,4 +2,5 @@
 ## Requires MeteorJs 
 
 > Get started by installing MeteorJs
-> Then run npm install in the cloned project folder
+## Dependances 
+> run npm install in the cloned project folder to install dependances
