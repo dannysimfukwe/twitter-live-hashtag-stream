@@ -1,4 +1,4 @@
 # Twitter Hash tag realtime tracker
-## Required MeteorJs 
+## Requires MeteorJs 
 
 > Get start by installing dependances with npm install
